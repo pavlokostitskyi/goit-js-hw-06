@@ -6,7 +6,7 @@ class Storage {
   getItems() {
     return this.#items;
   }
-  addItems(newItem) {
+  addItem(newItem) {
     this.#items.push(newItem)
   }
   removeItem(itemToRemove) {
